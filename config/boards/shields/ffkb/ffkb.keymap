@@ -50,7 +50,7 @@
 // |  SHIFT  |    Z      |    X    |    C    |    V    |    B    |                    |    page down    |    2    |    3    |    .    |    /    |  SHIFT  |
 //                                         |   ALT   |    -    |  SPACE | |  SPACE  |   -     |   0     |
             bindings = <
-    &kp TAB    &kp DELETE    &kp PAGE_UP    &kp E           &kp R          &kp T                                   &kp F9   &kp F10   &kp F11   &kp F12   &kp RIGHT_BRACKET &kp BSPC
+    &kp ESC    &kp DELETE    &kp PAGE_UP    &kp E           &kp R          &kp T                                   &kp F9   &kp F10   &kp F11   &kp F12   &kp RIGHT_BRACKET &kp BSPC
     &kp LCTRL  &kp HOME      &kp PAGE_DOWN  &kp END         &kp UP_ARROW   &kp G                    &none          &kp F5   &kp F6    &kp F7    &kp F8    &kp RIGHT_BRACE   &kp RETURN
     &kp LSHIFT &kp Z         &kp X          &kp LEFT_ARROW  &kp DOWN_ARROW &kp RIGHT_ARROW                         &kp F1   &kp F2    &kp F3    &kp F4    &none             &kp RSHIFT
                                             &none           &kp LALT       &none             &kp SPACE  &kp SPACE  &none    &kp RALT  &none
