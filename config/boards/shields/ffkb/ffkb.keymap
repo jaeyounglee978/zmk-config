@@ -37,7 +37,7 @@
             bindings = <
     &kp TILDE    &kp EXCL   &kp AT    &kp HASH  &kp DOLLAR  &kp PERCENT                               &kp PLUS   &kp KP_N7   &kp KP_N8  &kp KP_N9   &kp LEFT_BRACKET &kp BSPC
     &kp LCTRL    &kp CARET  &kp AMPS  &kp ASTRK &kp F       &kp G                     &none           &kp MINUS  &kp KP_N4   &kp KP_N5  &kp KP_N6   &kp LEFT_BRACE   &kp RETURN
-    &kp        &kp LPAR   &kp RPAR  &kp C     &kp V       &kp B                                     &kp DOT    &kp KP_N1   &kp KP_N2  &kp KP_N3   &kp FSLH         &kp RSHIFT
+    &kp LSHIFT   &kp LPAR   &kp RPAR  &kp C     &kp V       &kp B                                     &kp DOT    &kp KP_N1   &kp KP_N2  &kp KP_N3   &kp FSLH         &kp RSHIFT
                                                 &none       &kp LALT  &none   &kp SPACE    &kp SPACE  &none      &kp KP_N0   &none
             >;
         };
