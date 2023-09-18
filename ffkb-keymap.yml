@@ -1,0 +1,137 @@
+layout: {qmk_keyboard: fingerpunch/ffkb}
+layers:
+  Default:
+  - ESC
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - {t: A, h: LCTL}
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - RETURN
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHIFT
+  - ''
+  - LALT
+  - LSHIFT
+  - Lower
+  - Upper
+  - SPACE
+  - RALT
+  - ''
+  Lower:
+  - '`'
+  - '&'
+  - '*'
+  - '*'
+  - '['
+  - ']'
+  - '='
+  - '7'
+  - '8'
+  - '9'
+  - '"'
+  - BSPC
+  - LCTRL
+  - $
+  - '%'
+  - ^
+  - '{'
+  - '}'
+  - '-'
+  - '4'
+  - '5'
+  - '6'
+  - ''''
+  - RETURN
+  - LSHIFT
+  - '!'
+  - '@'
+  - '#'
+  - (
+  - )
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - RSHIFT
+  - ''
+  - LALT
+  - LSHIFT
+  - {type: held}
+  - ''
+  - SPACE
+  - '0'
+  - ''
+  Upper:
+  - ESC
+  - DELETE
+  - PAGE UP
+  - ''
+  - ''
+  - ''
+  - F9
+  - F10
+  - F11
+  - F12
+  - ''
+  - BSPC
+  - LCTRL
+  - HOME
+  - PAGE DOWN
+  - END
+  - UP ARROW
+  - ''
+  - F5
+  - F6
+  - F7
+  - F8
+  - ''
+  - RETURN
+  - LSHIFT
+  - ''
+  - ''
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - F1
+  - F2
+  - F3
+  - F4
+  - ''
+  - RSHIFT
+  - ''
+  - LALT
+  - LSHIFT
+  - ''
+  - {type: held}
+  - SPACE
+  - RALT
+  - ''
