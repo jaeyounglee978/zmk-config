@@ -15,9 +15,9 @@ layers:
   - BSPC
   - TAB
   - {t: A, h: LCTL}
-  - S
-  - D
-  - F
+  - {t: S, h: LGUI}
+  - {t: D, h: LALT}
+  - {t: F, h: LSHIFT}
   - G
   - H
   - J

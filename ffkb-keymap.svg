@@ -163,14 +163,17 @@ path.combo {
 <g transform="translate(168, 80) rotate(15.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
+<text x="0" y="24" class="key hold">LGUI</text>
 </g>
 <g transform="translate(226, 80) rotate(15.0)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
+<text x="0" y="24" class="key hold">LALT</text>
 </g>
 <g transform="translate(277, 109) rotate(15.0)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
+<text x="0" y="24" class="key hold">LSHIFT</text>
 </g>
 <g transform="translate(329, 130) rotate(15.0)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
