@@ -64,7 +64,7 @@
     &kp TAB    &hst LCTL A &hst LGUI S &hm LALT D  &hs LSHIFT F  &kp G              &none            &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp RETURN
     &kp LSHIFT &kp Z       &kp X       &kp C       &kp V         &kp B                               &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHIFT
                                        &none       &kp LALT      &kp LSHIFT  MO_TOG(1)   MO_TOG(2)   &kp SPACE &kp RALT  &none
-            >
+            >;
         };
         
         lower_layer {
