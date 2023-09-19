@@ -28,7 +28,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-        hs: homerow_stickey {
+        hst: homerow_stickey {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_TOGGLE";
             #binding-cells = <2>;
@@ -51,7 +51,7 @@
 //                                         |   ALT   |  LSHIFT |  LOWER | |  UPPER  |  SPACE  |  RALT   |
             bindings = <
     &kp ESC    &kp Q       &kp W       &kp E       &kp R         &kp T                          &kp Y     &kp U     &kp I     &kp O     &kp P    &kp BSPC
-    &kp TAB    &hs LCTL A  &hs LGUI S  &hm LALT D  &hs LSHIFT F  &kp G          &none           &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp RETURN
+    &kp TAB    &hst LCTL A &hst LGUI S &hm LALT D  &hs LSHIFT F  &kp G          &none           &kp H     &kp J     &kp K     &kp L     &kp SEMI &kp RETURN
     &kp LSHIFT &kp Z       &kp X       &kp C       &kp V         &kp B                          &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH &kp RSHIFT
                                        &none     &kp LALT  &kp LSHIFT   &mo LOWER   &mo UPPER  &kp SPACE  &kp RALT &none
             >;
