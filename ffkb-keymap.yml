@@ -40,8 +40,8 @@ layers:
   - ''
   - LALT
   - LSHIFT
-  - Lower
-  - Upper
+  - {t: Lower, h: Lower}
+  - {t: Upper, h: Upper}
   - SPACE
   - RALT
   - ''
@@ -85,9 +85,9 @@ layers:
   - ''
   - LALT
   - LSHIFT
-  - {type: held}
-  - ''
-  - SPACE
+  - {t: Default, type: held}
+  - Default
+  - RSHIFT
   - '0'
   - ''
   Upper:
@@ -130,8 +130,8 @@ layers:
   - ''
   - LALT
   - LSHIFT
-  - ''
-  - {type: held}
+  - Default
+  - {t: Default, type: held}
   - SPACE
   - RALT
   - ''
