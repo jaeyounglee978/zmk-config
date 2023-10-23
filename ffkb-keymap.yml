@@ -64,7 +64,7 @@ layers:
   - ^
   - '{'
   - '}'
-  - '-'
+  - ''
   - '4'
   - '5'
   - '6'
@@ -94,9 +94,9 @@ layers:
   - ESC
   - DELETE
   - PAGE UP
-  - ''
-  - ''
-  - ''
+  - PP
+  - MUTE
+  - VOL UP
   - F9
   - F10
   - F11
@@ -108,7 +108,7 @@ layers:
   - PAGE DOWN
   - END
   - UP ARROW
-  - ''
+  - VOL DN
   - F5
   - F6
   - F7

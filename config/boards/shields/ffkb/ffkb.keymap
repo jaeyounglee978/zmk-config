@@ -85,13 +85,13 @@
         upper_layer {
             label = "Upper";
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// |   TAB   |  DELETE  |    PU   |    -   |    -    |   -    |                    |    F9    |    F10   |    F11    |    F12    |    -    |   BSPC  |
-// |   CTRL  |   HOME   |    PD   |   END  |    ⬆   |    -   |                    |    F5    |    F6    |    F7     |    F8     |    ;    | RETURN  |
-// |  SHIFT  |     -    |    -    |    ⬅   |    ⬇   |    ⮕   |                    |    F1    |    F2    |    F3     |    F4     |    /    |  SHIFT  |
-//                                         |   ALT   |    -   |  SPACE | |  SPACE  |     -    |     -    |
+// |   TAB   |  DELETE  |    PU   | Play/Pause |  mute   |  vol up    |                              |    F9    |    F10   |    F11    |    F12   |    -    |   BSPC  |
+// |   CTRL  |   HOME   |    PD   |     END    |   ⬆     |  vol down  |                             |    F5    |    F6    |    F7     |    F8     |    ;    | RETURN  |
+// |  SHIFT  |     -    |    -    |     ⬅     |    ⬇    |      ⮕    |                              |    F1    |    F2    |    F3     |    F4     |    /    |  SHIFT  |
+//                                           |    ALT    |      -     |  TO_DEFAULT | |  TO_DEFAULT  |     -    |     -    |
             bindings = <
-    &kp ESC    &kp DELETE    &kp PAGE_UP    &none           &none          &none                              &kp F9    &kp F10   &kp F11   &kp F12   &none   &kp BSPC
-    &kp LCTRL  &kp HOME      &kp PAGE_DOWN  &kp END         &kp UP_ARROW   &none                &none         &kp F5    &kp F6    &kp F7    &kp F8    &none   &kp RETURN
+    &kp ESC    &kp DELETE    &kp PAGE_UP    &kp C_PP        &kp K_MUTE     &kp C_VOL_UP                       &kp F9    &kp F10   &kp F11   &kp F12   &none   &kp BSPC
+    &kp LCTRL  &kp HOME      &kp PAGE_DOWN  &kp END         &kp UP_ARROW   &kp C_VOL_DN         &none         &kp F5    &kp F6    &kp F7    &kp F8    &none   &kp RETURN
     &kp LSHIFT &none         &none          &kp LEFT_ARROW  &kp DOWN_ARROW &kp RIGHT_ARROW                    &kp F1    &kp F2    &kp F3    &kp F4    &none   &kp RSHIFT
                                             &none           &kp LALT       &kp LSHIFT      &to 0     &to 0    &kp SPACE &kp RALT  &none
             >;
