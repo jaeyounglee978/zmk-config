@@ -6,6 +6,19 @@ if SHIELD_FFKB
 config ZMK_KEYBOARD_NAME
     string "ffkb"
 
+if ZMK_DISPLAY
+
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+config SSD1306_REVERSE_MODE
+    default y
+
+endif # ZMK_DISPLAY
+
 CONFIG_BUILD_OUTPUT_UF2=y
 
 endif
