@@ -15,7 +15,8 @@ config SSD1306
     default y
 
 config SSD1306_REVERSE_MODE
-    default y
+    bool "SSD1306 reverse mode"
+    depends on SSD1306 && DISPLAY
 
 endif # ZMK_DISPLAY
 
