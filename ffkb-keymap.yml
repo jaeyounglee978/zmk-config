@@ -92,11 +92,11 @@ layers:
   - ''
   Upper:
   - ESC
-  - DELETE
-  - PAGE UP
   - PP
+  - DELETE
+  - ''
+  - ''
   - MUTE
-  - VOL UP
   - F9
   - F10
   - F11
@@ -104,11 +104,11 @@ layers:
   - ''
   - BSPC
   - LCTRL
+  - VOL UP
   - HOME
-  - PAGE DOWN
-  - END
   - UP ARROW
-  - VOL DN
+  - END
+  - PAGE UP
   - F5
   - F6
   - F7
@@ -116,11 +116,11 @@ layers:
   - ''
   - RETURN
   - LSHIFT
-  - ''
-  - ''
+  - VOL DN
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
+  - PAGE DOWN
   - F1
   - F2
   - F3
