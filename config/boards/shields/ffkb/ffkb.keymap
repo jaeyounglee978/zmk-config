@@ -85,15 +85,15 @@
         upper_layer {
             label = "Upper";
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// |   ESC   | Play/Pause |   DELETE  |    -     |     -    |    mute   |                             |    F9    |    F10   |    F11    |    F12   |    -    |   BSPC  |
-// |   CTRL  |   vol up   |    HOME   |    ⬆    |    END    |  PAGE_UP  |                             |    F5    |    F6    |    F7     |    F8     |    ;    | RETURN  |
-// |  SHIFT  |  vol down  |     ⬅     |    ⬇    |     ⮕    | PAGE_DOWN |                             |    F1    |    F2    |    F3     |    F4     |    /    |  SHIFT  |
-//                                               |    ALT    |     -    |  TO_DEFAULT | |  TO_DEFAULT  |     -    |     -    |
+// |   ESC   |   -   |    F9    |    F10   |    F11    |    F12   |                 |  DELETE |    -    |    -   | Play/Pause |    mute   |   BSPC  |
+// |   CTRL  |   -   |    F5    |    F6    |    F7     |    F8    |                 |   HOME  |   ⬆    |   END   |  PAGE_UP  |   vol up   | RETURN  |
+// |  SHIFT  |   -   |    F1    |    F2    |    F3     |    F4    |                 |    ⬅   |    ⬇    |   ⮕    | PAGE_DOWN |  vol down  |  SHIFT  |
+//                                          |    ALT   |   SHIFT  |  TD |    |  TD  |  SPACE  |   ALT   |
             bindings = <
-    &kp ESC    &kp C_PP     &kp DELETE       &none          &none            &kp K_MUTE                             &kp F9    &kp F10   &kp F11   &kp F12   &none   &kp BSPC
-    &kp LCTRL  &kp C_VOL_UP &kp HOME         &kp UP_ARROW   &kp END          &kp PAGE_UP         &none              &kp F5    &kp F6    &kp F7    &kp F8    &none   &kp RETURN
-    &kp LSHIFT &kp C_VOL_DN &kp LEFT_ARROW   &kp DOWN_ARROW &kp RIGHT_ARROW  &kp PAGE_DOWN                          &kp F1    &kp F2    &kp F3    &kp F4    &none   &kp RSHIFT
-                                            &none           &kp LALT         &kp LSHIFT      &to 0     &to 0        &kp SPACE &kp RALT  &none
+    &kp ESC      &none   &kp F9    &kp F10   &kp F11   &kp F12                      &kp DELETE       &none          &none            &kp C_PP      &kp K_MUTE   &kp BSPC
+    &kp LCTRL    &none   &kp F5    &kp F6    &kp F7    &kp F8           &none       &kp HOME         &kp UP_ARROW   &kp END          &kp PAGE_UP   &kp C_VOL_UP &kp RETURN
+    &kp LSHIFT   &none   &kp F1    &kp F2    &kp F3    &kp F4                       &kp LEFT_ARROW   &kp DOWN_ARROW &kp RIGHT_ARROW  &kp PAGE_DOWN &kp C_VOL_DN &kp RSHIFT
+                                   &none     &kp LALT  &kp LSHIFT   &to 0   &to 0   &kp SPACE        &kp RALT       &none
             >;
         };
     };
